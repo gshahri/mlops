@@ -26,9 +26,14 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-GROUP="testml"
+#add your authentication details
+# subscription_id="eb80de0e-9be3-49bd-bdda-edf2c3adedcd" #Provide your subscription ID 
+# resource_group_name="test-resource" #Provide your Resource Group
+# workspace_name="demo-azureml"
+
+GROUP="test-resource"
 LOCATION="eastus"
-WORKSPACE="azureml"
+WORKSPACE="demo-azureml"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
